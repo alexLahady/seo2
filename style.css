@@ -1042,6 +1042,27 @@ h4 {
     }
 }
 
-/* Responsive modification */
+/* Responsive et modification */
 
+.title {
+    font-size: 1.5em;
+    color:rgba(0, 0, 0, 0.6);
+}
 
+@media (max-width: 767px){
+    .tight-width-whitespace img{
+        width: 90px;
+    }
+    .title {
+        font-size: 1.2em;
+    }
+    .row-no-gutters{
+        display: flex;
+        justify-content: space-around;
+    }
+    .portfolio-row img{
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 15em;
+    }
+}
