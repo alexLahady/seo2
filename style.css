@@ -1051,7 +1051,6 @@ h4 {
 
 @media (max-width: 767px){
     .tight-width-whitespace img{
-        weight:auto;
         height: auto;
     }
     .title {
