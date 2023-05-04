@@ -1050,6 +1050,9 @@ h4 {
 }
 
 @media (max-width: 767px){
+    p {
+        font-size: 14px;
+    }
     .tight-width-whitespace img{
         height: auto;
     }
