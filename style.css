@@ -771,15 +771,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background: #f3976cea;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976cea!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f3976cea;
     color: #FFFFFF!important;
 }
 
@@ -1044,6 +1044,9 @@ h4 {
 
 /* Responsive et modification */
 
+html {
+    scroll-behavior: smooth;
+}
 .title {
     font-size: 1.5em;
     color:rgba(0, 0, 0, 0.6);
